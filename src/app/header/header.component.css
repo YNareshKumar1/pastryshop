@@ -1,0 +1,146 @@
+.header-section {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 2px solid 
+    #771c17;
+    background-color: #8ABAD3FF;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo {
+   float: left;
+}
+a {
+    outline: none;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.tagline {
+    width: 790px;
+    float: left;
+    text-align: center;
+}
+.tagline h1 {
+    font-family: 'Monotype Corsiva';
+    display: block;
+    color: 
+    #771c17;
+    font-size: 70px;
+    line-height: 60px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    margin: 50px 0 0;
+    padding: 0;
+}
+.top-rgt {
+    /* float: right; */
+    text-align: right;
+}
+.top_follow {
+    float: right;
+    margin-bottom: 10px;
+}
+.top_follow a {
+    color: 
+    #FFF;
+}
+.top_follow .fa-youtube {
+    float: left;
+    font-size: 14px;
+    background: 
+    #dd2b26;
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 26px;
+    margin: 0 5px 0 0;
+}
+.top_follow .fa-twitter {
+    float: left;
+    font-size: 14px;
+    background: 
+    #55acee;
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 26px;
+    margin: 0 5px 0 0;
+}
+.top_follow .fa-instagram {
+    float: left;
+    font-size: 14px;
+    background: 
+    #447292;
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 26px;
+    margin: 0 5px 0 0;
+}
+.top_follow .fa-facebook{
+    float: left;
+    font-size: 14px;
+    background: 
+    #3d5a98;
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 26px;
+    margin: 0 5px 0 0;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+ 
+}
+.nar li a{
+padding-top: 20px;
+color:
+#771c17;
+float: left;
+list-style: none;
+text-decoration: none;
+}
+.clear {
+    clear: both;
+}
+.navigation {
+    width: 100%;
+    float: left;
+    margin: 10px 0 0px;
+}
+.navigation ul {
+    list-style: none;
+}
+.navigation ul li a {
+    color: 
+    #771c17;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+}
+.navigation ul li a{
+    float: left;
+    position: relative;
+    border-right: 1px solid 
+    #771c17;
+}
+.navigation ul li:last-child {
+    border-right: none;
+}
