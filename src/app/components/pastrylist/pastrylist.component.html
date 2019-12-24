@@ -1,12 +1,10 @@
-<!-- Product section -->
-	<section class="product-section spad">
+<section class="product-section spad">
 		<div class="container">
 			<div class="row" id="product-filter">
 				<div class="mix col-lg-3 col-md-6 best" *ngFor="let item of itemlist">
 					<div class="product-item" >
 						<figure>
-                            <!-- <div class="bache">{{item.discount}}% Off</div> -->
-							<img src={{item.image}} alt="">
+                         	<img src={{item.image}} alt="">
 						</figure>
 						<div class="product-info">
 							<h6>{{item.name}} ({{item.weight}})</h6>

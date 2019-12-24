@@ -1,15 +1,13 @@
-<!-- <p>cart works!</p>
-<i class="fa fa-youtube-square"></i> -->
 <div class="page-area cart-page spad">
     <div class="container">
         <div class="cart-table">
             <table>
                 <thead>
-                    <tr>
-                        <th class="product-th">Product</th>
+                    <tr class="naresh">
+                        <th>Product</th>
                         <th>Price</th>
                         <th>Quantity</th>
-                        <th class="total-th">Total</th>
+                        <th>Total</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -27,7 +25,7 @@
                             <span class="p-3">{{c.quantity}}</span>
                             <button class="btn btn-sm btn-primary"(click)="plus(c.id)">+</button>
                         </td>
-                        <td class="total-col">{{c.price*c.quantity}}</td>
+                        <td class="total-col kumar">{{c.price*c.quantity}}</td>
                     </tr>
                 </tbody>
             </table>
@@ -81,4 +79,4 @@
         </div>
     </div>
 </div>
-<!-- Page end -->
+

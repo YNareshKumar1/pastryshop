@@ -13,11 +13,11 @@ export class PastrylistComponent implements OnInit {
   ngOnInit() {
           this.itemlist=Object.values(this.service.pasrty_list)
   }
-  addtocart(i){
-    if(this.service.cartitems.hasOwnProperty(i.id)){
-           this.service.cartitems[i.id].quantity+=1
+  addtocart(item1){
+    if(this.service.cartitems.hasOwnProperty(item1.id)){
+           this.service.cartitems[item1.id].quantity+=1
     }else{
-            this.service.cartitems[i.id]=i
+            this.service.cartitems[item1.id]=item1
     }
   }
 }

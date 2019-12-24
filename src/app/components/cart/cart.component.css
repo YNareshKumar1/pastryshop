@@ -1275,15 +1275,15 @@ ol {
 }
 
 .cart-table thead {
-	background:#CCCCCC;
+	background: #edc2d8ff;
 	margin-bottom: 55px;
 }
 
 .cart-table thead th {
-	padding: 5px 25px;
+	padding: 5px 100px;
 	text-align: center;
-	font-weight: 400;
-	font-size: 14px;
+	font-weight: 500;
+	font-size: 20px;
 }
 
 .cart-table tbody td {
@@ -1292,6 +1292,7 @@ ol {
 
 .cart-table .product-th {
 	text-align: left;
+	padding: 5px 100px;
 }
 
 .cart-table .product-col {
@@ -1333,7 +1334,7 @@ ol {
 	margin: 0 auto;
 }
 .quy-col{
-	padding-left: 190px;
+	padding-left: 112px;
 }
 
 .cart-table .quy-input span {
@@ -1517,6 +1518,9 @@ ol {
 .checkout-form .checkout-title {
 	font-weight: 400;
 	margin-bottom: 50px;
+} 
+.naresh{
+	border-color: aqua;
 }
 
 .checkout-form input[type=text],
@@ -2081,4 +2085,7 @@ ol {
 	.payment-method {
 		padding: 30px 30px 10px;
 	}
+}
+.kumar{
+padding-right: 111px;
 }

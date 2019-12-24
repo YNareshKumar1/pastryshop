@@ -39,7 +39,6 @@ export class CartComponent implements OnInit {
     for (let element in this.service2.cartitems) {
       delete this.service2.cartitems[element];
   }
-    // this.service2.cartitems=null;
     this.cartarray = Object.values(this.service2.cartitems);
   }
 }
